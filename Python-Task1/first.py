@@ -1,4 +1,4 @@
-print("=" * 80) # Asthetics
+print("=+" * 30) # Asthetics
 # Operations on Numbers
 class Numbers:
     def __init__(self, num1, num2):
@@ -39,7 +39,7 @@ integer_operations = {'Addition' : Int.add(), 'Subtraction' : Int.sub(), 'Absolu
 # print(help({})) #Taking Help from Dictionary Class
 # Print All Integer Operations
 print(integer_operations)
-print("=" * 80) # Asthetics
+print("=+" * 30) # Asthetics
 
 #Floating Point Numbers
 print("Floating Point Numbers".upper())
@@ -50,4 +50,4 @@ floating_operations = {'Addition' : Float.add(), 'Subtraction' : Float.sub(), 'A
                 'Multiplication' : Int.mul(), 'Division' : Float.div(), 'Floor_Division' : Float.div_floor(),
                 'Power' : Float.pow()}
 print(floating_operations)
-print("=" * 80) # Asthetics
+print("=+" * 30) # Asthetics
