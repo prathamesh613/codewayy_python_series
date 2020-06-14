@@ -1,0 +1,34 @@
+Day 2 Questions :
+
+Q1.  Why is list used?
+
+Ans. List is a built-in Data Structure in Python.
+     It is a collection of different types of elements such as :
+     integer, float, string, etc enclosed in a square bracket [ ].
+
+Q2.  How do lists and sets differ?
+
+Ans. The list is the most versatile datatype available in Python.
+     Lists can be written as a list of comma-separated values (items) between square brackets.
+     Important thing about a list is that the items in a list need not be of the same type.
+
+     A set in Python is a unordered collection of data.
+     Lists supports indexing but sets does not support indexing.
+     Lists does not remove duplicate values but sets removes duplicate values.
+     Lists are faster than sets.
+
+Q3.  Application of Dictionaries with a real world example.
+
+Ans. In real world, dictionary can be used as item price storage in a restaurant.
+     For Ex: 'Biryani' and 'Chicken' are ordered. order = ['Biryani', 'Chicken']
+     Costs are 250 and 200 respectively.
+     Total bill can be given as:
+     for item in order:
+      if item in food_dictionary:
+        total += food_dictionary[item]
+
+
+List          collection        ordered       changeable      Allows duplicate members.
+Tuple         collection        ordered       unchangeable    Allows duplicate members.
+Set           collection        unordered                     No duplicate members.           unindexed
+Dictionary    collection        unordered     changeable      No duplicate members            indexed
